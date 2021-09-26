@@ -1,0 +1,157 @@
+:root{
+    --thierColor:#060a18;
+    --secondColor:#3d3434;
+    --firstColor:#2b0101;
+    --FouthColor:#121212;
+    --mainText:#f8f8fa;
+    --secondaryText:#121212;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body *{
+    transition: 0.6s;
+}
+
+
+.s1-1{
+    background-color: var(--mainText);
+    align-content: center;
+    text-align: center;
+}
+.s1{
+    background-color: var(--thierColor);
+
+}
+.s2{
+    background-color: var(--FouthColor);
+
+}
+
+.s3{
+    background-color: var(--thierColor);
+
+}
+.s4{
+    background-color: var(--FouthColor);
+
+}
+
+.main-container{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.name-wrapper{
+
+    grid-template-columns: 1fr;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.text-wrapper{
+    background-color: var(--FouthColor);
+    width: 100%;
+    height:100px;
+    text-align: center;
+    color: var(--secondColor);
+    font-size: 34px;
+
+}
+
+.text-wrapper p{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.nav-wrapper{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    height: 70px;
+}
+
+.logo{
+    background-color: var(--FouthColor);
+    color: var(--mainText);
+    width: 30%;
+}
+
+.logo h3{
+    margin-left: 10%;
+}
+
+.nav li{
+    display: inline-block;
+    padding:15px;
+    font-size: 26px;
+    margin-left: -2%;
+    color:var(--mainText)
+}
+
+.nav li a{
+    font-size:15px;
+    text-decoration: none;
+    font-size: 90%;
+    color: var(--mainText);
+}
+.picture-wrapper{
+    grid-template-columns: 1fr;
+    display: grid;
+}
+
+.picture img{
+    width: 100%;
+    height: 400px;
+}
+
+.content-wrapper{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.left-wrapper{
+    width: 45%;
+
+
+}
+
+.right-wrapper{
+    width: 80%;
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+.footer-content{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: var(--mainText);
+
+}
+.author-wrapper{
+    grid-template-columns: 1fr;
+    display: grid;
+    justify-content: center;
+}
+
+.author-content{
+    width: 100%;
+    height: 50px;
+    color:var(--mainText);
+    text-align: center;
+    
+}
+.x{
+justify-content: center;
+text-align: center;
+}
